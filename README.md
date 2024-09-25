@@ -20,3 +20,12 @@ Click on a button below to deploy to your favorite cloud provider:
 
 [Render Btn]: https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg
 [Render Deploy]: https://render.com/deploy?repo=https://github.com/AgustinPelaez/mixpanel-tracking-proxy-with-gtm
+
+## GTM configuration
+Once you've setup your custom domain, go to Mixpanel template and replace the current library URL in two (2) places: the code, and the:
+
+1- Replace library URL in Mixpanel's template code:
+![image](https://github.com/user-attachments/assets/22517234-bde2-40bd-aabb-769f719f6891)
+
+2- Replace library URL in Mixpanel's template permissions tab:
+![image](https://github.com/user-attachments/assets/d6077120-30c8-4168-b03e-dc7f6e5fcfec)
