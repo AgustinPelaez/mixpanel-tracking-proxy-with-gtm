@@ -1,4 +1,4 @@
-**NOTE:** I use Mixpanel's GTM template, but it doesn't work with this Proxy approach because the required library is not proxied by default in Mixpanel's original [Nginx Proxy for Mixpanel](https://github.com/mixpanel/tracking-proxy) project. So I had to create this fork and simply add the lines to the nginx.conf file.
+**NOTE:** I use Mixpanel's GTM template, but it doesn't work with the proxy approach because the required library is not proxied by default in Mixpanel's original [Nginx Proxy for Mixpanel](https://github.com/mixpanel/tracking-proxy) project. So I had to create this fork and simply add the lines to the nginx.conf file.
 
 Click on a button below to deploy to your favorite cloud provider:
 
@@ -9,20 +9,14 @@ Click on a button below to deploy to your favorite cloud provider:
 
 
 <!-- URLS -->
-[Google Cloud Btn]: https://binbashbanana.github.io/deploy-buttons/buttons/remade/googlecloud.svg
-[Google Cloud Deploy]: https://deploy.cloud.run
-
 [Digital Ocean Btn]: https://www.deploytodo.com/do-btn-blue.svg
 [Digital Ocean Deploy]: https://cloud.digitalocean.com/apps/new?repo=https://github.com/AgustinPelaez/mixpanel-tracking-proxy-with-gtm/tree/master
-
-[Railway Btn]: https://binbashbanana.github.io/deploy-buttons/buttons/remade/railway.svg
-[Railway Deploy]: https://railway.app/template/_RaWSW
 
 [Render Btn]: https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg
 [Render Deploy]: https://render.com/deploy?repo=https://github.com/AgustinPelaez/mixpanel-tracking-proxy-with-gtm
 
 ## GTM configuration
-Once you've setup your custom domain, go to Mixpanel template and replace the current library URL in two (2) places: the code, and the:
+Once you've setup your custom domain, go to Mixpanel template and replace the current library URL in two (2) places:
 
 1- Replace library URL in Mixpanel's template code:
 ![image](https://github.com/user-attachments/assets/22517234-bde2-40bd-aabb-769f719f6891)
