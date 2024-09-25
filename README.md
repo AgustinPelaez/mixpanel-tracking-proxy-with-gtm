@@ -2,9 +2,7 @@
 
 Click on a button below to deploy to your favorite cloud provider:
 
-[![Google Cloud Btn]][Google Cloud Deploy]
 [<img src=https://www.deploytodo.com/do-btn-blue.svg width=198px />][Digital Ocean Deploy]
-[![Railway Btn]][Railway Deploy]
 [![Render Btn]][Render Deploy]
 
 
